@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+        <color name="pink_soft">#F4A6B8</color>
+        <color name="pink_dark">#C97A8A</color>
+
+        <color name="blue_soft">#AFCBFF</color>
+        <color name="blue_dark">#6B8ED6</color>
+
+        <color name="green_soft">#B7E4C7</color>
+        <color name="green_dark">#74C69D</color>
+
+        <color name="white_soft">#FAFAFA</color>
+        <color name="gray_light">#EDEDED</color>
+        <color name="gray_medium">#B0B0B0</color>
+        <color name="gray_dark">#2C2C2C</color>
+
+        <color name="text_dark">#1F1F1F</color>
+        <color name="text_light">#FFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="chart_grid">#22000000</color>
+    <color name="chart_line">#1E88E5</color>
+    <color name="chart_fill">#221E88E5</color>
+    <color name="chart_text">#66000000</color>
+
+</resources>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="my_account">Akun Saya</string>
+    <string name="save">Simpan</string>
+    <string name="cancel">Batal</string>
+    <string name="default_email">email@contoh.com</string>
+    <string name="change_email">Ubah Email</string>
+    <string name="change_password">Ubah Password</string>
+    <string name="new_email">Email baru</string>
+    <string name="new_password">Password baru</string>
+    <string name="repeat_password">Ulangi password</string>
+    <string name="email_empty">Email tidak boleh kosong</string>
+    <string name="password_empty">Password tidak boleh kosong</string>
+    <string name="password_not_match">Password tidak sama</string>
+    <string name="password_updated">Password berhasil diubah</string>
+    <string name="choose_language">Pilih Bahasa</string>
+    <string name="indonesian">Indonesia</string>
+    <string name="english">Inggris</string>
+    <string name="choose_theme">Pilih Tema</string>
+    <string name="light">Terang</string>
+    <string name="dark">Gelap</string>
+    <string name="my_lists">Daftar Saya</string>
+    <string name="logout">Keluar</string>
+    <string name="logout_confirm">Apakah kamu yakin ingin logout?</string>
+    <string name="home">Beranda</string>
+    <string name="profile">Profil</string>
+    <string name="hapus">Hapus</string>
+    <string name="make_list">Buat Daftar Baru</string>
+    <string name="new_list">Daftar Baru</string>
+    <string name="pinned">Sematkan</string>
+    <string name="choose">Dipilih</string>
+    <string name="empty_home_title">Ayo rencanakan belanjamu!</string>
+    <string name="empty_home_desc">Tekan tanda tambah untuk menambah produk</string>
+    <string name="search">Cari...</string>
+    <string name="more">Lainnya</string>
+    <string name="insights">Insights</string>
+    <string name="my_carts">Keranjang Saya</string>
+    <string name="empty_state_image">Gambar halaman kosong</string>
+    <string name="add_cart">Tambah Keranjang</string>
+    <string name="app_name">Grocerly</string>
+    <string name="invalid_list_id">List tidak valid</string>
+    <string name="search_item_hint">Cari nama barang...</string>
+    <string name="done">Selesai</string>
+    <string name="add_item_title">Tambah Item</string>
+    <string name="add_item_desc">Pilih item yang ingin ditambahkan</string>
+    <string name="trash_title">Item Dihapus</string>
+    <string name="empty_trash">Belum ada item yang dihapus</string>
+    <string name="login">Masuk</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="back">Kembali</string>
+    <string name="budget">Anggaran</string>
+    <string name="spent">Terpakai</string>
+    <string name="remaining">Sisa</string>
+    <string name="default_currency">Rp0</string>
+    <string name="success">Berhasil</string>
+    <string name="budget_success_title">Sesuai anggaran! Mantap!</string>
+    <string name="finish_list">Selesaikan daftar</string>
+    <string name="keep_editing">Lanjutkan mengedit</string>
+    <string name="of">dari</string>
+    <string name="edit_budget">Ubah Anggaran</string>
+    <string name="edit_budget_hint">Masukkan anggaran (contoh: 20000)</string>
+    <string name="edit_item">Ubah Item</string>
+    <string name="item_name">Nama Item</string>
+    <string name="item_name_hint">Nama item</string>
+    <string name="price">Harga</string>
+    <string name="quantity">Jumlah</string>
+    <string name="unit">Satuan</string>
+    <string name="unit_hint">kg, g, L</string>
+    <string name="total">Total</string>
+    <string name="default_quantity">1</string>
+    <string name="plus">+</string>
+    <string name="minus">−</string>
+    <string name="rename_title">Ubah Judul</string>
+    <string name="new_title">Judul baru</string>
+    <string name="item_name_sample">Item</string>
+    <string name="create_new_cart">Buat Keranjang Baru</string>
+    <string name="new_cart">Keranjang baru</string>
+    <string name="save_cart">Simpan Keranjang</string>
+    <string name="total_spent">Total Pengeluaran</string>
+    <string name="recent_carts">Keranjang Terbaru</string>
+    <string name="list_title_sample">Daftar Belanja</string>
+    <string name="item_count_sample">0 item</string>
+    <string name="item_sub_sample">Rp0 x 1</string>
+    <string name="restore">Pulihkan</string>
+    <string name="delete_permanent">Hapus Permanen</string>
+    <string name="action_rename_title">Ubah Judul</string>
+    <string name="action_edit_budget">Ubah Anggaran</string>
+    <string name="action_delete_checked">Hapus yang Dicentang</string>
+    <string name="guest_user">guest</string>
+    <string name="chart_zero">0</string>
+    <string name="chart_k_suffix">k</string>
+    <string name="login_empty_field">Email dan password wajib diisi</string>
+    <string name="empty_trash_title">Trash kosong</string>
+    <string name="empty_trash_desc">Belum ada list yang dihapus</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
