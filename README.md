@@ -163,5 +163,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-- GitHub: [@AWCODE13](https://github.com/AWCODE13)
-- Project: [grocerly-catatbelanja](https://github.com/AWCODE13/grocerly-catatbelanja)
+- GitHub: [@MarkianWibowo](https://github.com/MarkianWibowo)
+- Project: [grocerly-catatbelanja](https://github.com/MarkianWibowo/grocerly-catatbelanja)
