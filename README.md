@@ -23,6 +23,8 @@ Grocerly is a simple yet powerful tool for anyone who wants to organize their gr
 - 📝 **Add Items**: Add items with name, quantity, price, and unit
 - 💰 **Budget Tracking**: Set budget limits per list and track spending
 - 📊 **Spending Insights**: View chart analytics of your daily/weekly spending
+- 📋 **Dashboard**: Overview of your shopping activity and statistics
+- 👤 **Profil**: Manage user login, theme, and language settings
 - 🔐 **User Authentication**: Login/guest mode support
 - 🌓 **Dark Mode**: Supports system dark mode and manual theme selection
 - 🌐 **Language Support**: Multiple language support (English/Indonesian)
@@ -94,6 +96,9 @@ grocerly-catatbelanja/
 ### Key Modules
 
 - **ui**: Activities and Fragments that make up the user interface
+  - **HomeFragment**: Top screen — main dashboard with shopping lists
+  - **ProfileFragment**: User settings, login, theme/language
+  - **InsightsFragment**: Spending charts and analytics
 - **data**: Room database entities, DAOs, and database management
 - **util**: Shared preferences and app settings (language, theme, login state)
 - **adapter**: RecyclerView adapters for displaying lists of items
@@ -121,12 +126,19 @@ grocerly-catatbelanja/
 
 ### Basic Usage
 
-- **Splash Screen**: App starts with a logo animation, then navigates to MainActivity
-- **Home Fragment**: View your shopping lists, create new lists via the FAB (+) button
+- **Home Fragment (Bagian Atas)**: App starts with the home dashboard showing your shopping lists. This is the main entry point after the splash screen.
 - **Create List**: Enter a list name and budget limit, then save
 - **Add Items**: Select a list, add items with name, quantity, and price
+- **Dashboard**: View overview of your shopping activity and statistics
+- **Profil**: Manage login status, change theme (light/dark), and select language
 - **Insights Fragment**: View spending charts and statistics
-- **Profile Fragment**: Manage login status and theme/language settings
+
+### Navigasi
+
+- Use the **Bottom Navigation** to switch between:
+  - **Home** — Dashboard/daftar belanja (atas)
+  - **Insights** — Grafik pengeluaran
+  - **Profil** — Setings akun, tema, dan bahasa
 
 ### Data Persistence
 
@@ -136,7 +148,7 @@ All data is stored locally using Room SQLite. The database schema includes migra
 
 | Feature | Screenshot |
 |---------|-----------|
-| Home Screen | <img src="screenshots/home.png" width="200"/> |
+| Home Screen (Bagian Atas) | <img src="screenshots/home.png" width="200"/> |
 | Create List Dialog | <img src="screenshots/create_list.png" width="200"/> |
 | Item Details | <img src="screenshots/items.png" width="200"/> |
 | Insights Chart | <img src="screenshots/insights.png" width="200"/> |
