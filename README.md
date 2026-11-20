@@ -149,6 +149,8 @@ All data is stored locally using Room SQLite. The database schema includes migra
 | Feature | Screenshot |
 |---------|-----------|
 | Home Screen (Bagian Atas) | <img src="screenshots/home.png" width="200"/> |
+| Dashboard | <img src="screenshots/dasbord.png" width="200"/> |
+| Profil | <img src="screenshots/profile.png" width="200"/> |
 | Create List Dialog | <img src="screenshots/create_list.png" width="200"/> |
 | Item Details | <img src="screenshots/items.png" width="200"/> |
 | Insights Chart | <img src="screenshots/insights.png" width="200"/> |
