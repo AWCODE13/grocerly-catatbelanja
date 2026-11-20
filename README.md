@@ -2,7 +2,7 @@
 
 **Grocerly** is an Android application designed to help users manage their grocery shopping lists efficiently. Track items, set budgets, and view spending insights all in one place.
 
-![Grocerly Screenshot](screenshots/home.png)
+<img src="screenshots/home.png" width="100">
 
 ## Overview
 
