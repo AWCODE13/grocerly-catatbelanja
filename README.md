@@ -2,7 +2,7 @@
 
 **Grocerly** is an Android application designed to help users manage their grocery shopping lists efficiently. Track items, set budgets, and view spending insights all in one place.
 
-![Grocerly Screenshot](screenshot.png)
+![Grocerly Screenshot](screenshots/home.png)
 
 ## Overview
 
@@ -13,9 +13,9 @@ Grocerly is a simple yet powerful tool for anyone who wants to organize their gr
 - **Category**: Productivity / Shopping
 - **Platform**: Android (min SDK 30, target SDK 34)
 - **Language**: Kotlin 2.0.21
-- **Architecture**: MVVM with Fragments and Bottom Navigation
-- **Database**: Room SQLite with migration support
-- **Charts**: MPAndroidChart for spending insights
+- **Architecture**: Fragment-based with Bottom Navigation
+- **Database**: Room SQLite (with auto-migrations)
+- **Charts**: MPAndroidChart v3.1.0 for spending insights
 
 ## Features
 
@@ -33,9 +33,9 @@ Grocerly is a simple yet powerful tool for anyone who wants to organize their gr
 | Layer | Technology |
 |-------|-----------|
 | **Language** | Kotlin 2.0.21 |
-| **UI Framework** | Android SDK, Jetpack Compose (partial), Fragments |
-| **Architecture** | ViewModel + LiveData / Fragment-based |
-| **Database** | Room SQLite (with auto-migrations) |
+| **UI Framework** | Android SDK, Fragments, Bottom Navigation |
+| **Architecture** | Fragment-based with Session management |
+| **Database** | Room SQLite (with auto-migrations, currently at version 3) |
 | **Charting** | MPAndroidChart v3.1.0 |
 | **Dependency Injection** | Manual (SessionManager, AppSettings) |
 | **Build System** | Gradle 8.13.2 |
@@ -56,8 +56,7 @@ grocerly-catatbelanja/
 │   │   │   │   ├── MainActivity.kt
 │   │   │   │   ├── LoginActivity.kt
 │   │   │   │   ├── TambahActivity.kt
-│   │   │   │   ├── HapusActivity.kt
-│   │   │   │   └── AddItemActivity.kt
+│   │   │   │   └── HapusActivity.kt
 │   │   │   ├── fragment/            # Fragments
 │   │   │   │   ├── HomeFragment.kt
 │   │   │   │   ├── InsightsFragment.kt
@@ -110,7 +109,7 @@ grocerly-catatbelanja/
    ```
 
 2. **Open in Android Studio**
-   - Open the project in Android Giraffe / Hedgehog or newer
+   - Open the project in Android Studio with SDK 34 support
    - The project requires JDK 17 (compatible with Kotlin 2.0.21)
 
 3. **Build & Run**
@@ -142,7 +141,7 @@ All data is stored locally using Room SQLite. The database schema includes migra
 | Item Details | <img src="screenshots/items.png" width="200"/> |
 | Insights Chart | <img src="screenshots/insights.png" width="200"/> |
 
-> **Note**: Screenshots can be added to the `screenshots/` directory and referenced above.
+> **Note**: Screenshots are placeholder images. Replace with actual screenshots by adding real device captures to the `screenshots/` directory.
 
 ## License
 
